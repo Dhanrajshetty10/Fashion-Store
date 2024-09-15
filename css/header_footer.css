@@ -1,0 +1,115 @@
+header h1 {
+
+
+    padding: 10px 0;
+    margin: 0;
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+
+}
+
+header {
+    background-color: #1b2429f6;
+    width: 100%;
+    overflow: clip;
+}
+
+header a,
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+
+    flex-direction: column;
+    padding: 20px 0;
+
+    line-height: 40px;
+}
+
+footer a {
+    font-family: 'Playfair Display', serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0 10px;
+}
+
+.footer-links p:hover {
+    color: rgb(255, 117, 112);
+}
+
+.footer-links p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+
+.footer-links ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-links li {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 0;
+    font-size: larger;
+}
+
+.footer-links a:hover {
+    color: rgb(255, 117, 112);
+
+}
+
+.footer-links li:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: small;
+    margin-top: 20px;
+
+}
+
+.footer-bottom span {
+    color: white;
+    font-size: large;
+}
+
+h1 a:hover {
+    color: #FAEBD7
+}
+
+
+
+footer span:hover {
+    color: red;
+}
